@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera Web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/c9b87a4bee.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0a2de250b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="encabezado">
+        <h1 class="logo">
+          <a href="index.html" class="fuente-acento" style="text-decoration: none;">heruDesign</a>
+        </h1>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a class="navli" href="index-personal.html#home">Inicio</a></li>
+            <li><a class="navli" href="index-personal.html#about">Acerca de mi</a></li>
+            <li><a class="navli" href="index-personal.html#work">Mi Trabajo</a></li>
+            <li><a class="navli" href="index-personal.html#services">Servicios</a></li>
+            <li><a class="navli" href="index-personal.html#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main-section">
+        <section class="section-1">
+          <div class="acerca">
+            <div class="acerca-de">
+              <h2 class="title1">Acerca de mí</h2>
+              <p class="parrafo1">
+                ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí
+              </p>
+              <p class="parrafo2">
+                Me llamo Germán, nací en Bogotá y me encanta vivir aquí. Soy un
+                apasionado por el diseño y la tecnología, creo que no hay nada
+                mejor que combinar mis dos pasiones en mi trabajo y que este
+                sirva para mejorar la interacción de las personas con la
+                tecnología.
+              </p>
+            </div>
+            <div class="acerca-imagen">
+              <img src="Avatar.png" alt="imagen personal" />
+            </div>
+          </div>
+        </section>
+        <section class="section-2">
+          <img src="heruD banner.png" alt="imagen de carrusel" />
+        </section>
+        <section class="section-3">
+          <div class="mi-trabajo">
+            <h2 class="fuente-titulo">Mi trabajo</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="Black & White.png" alt="imagen trabajo" />
+                <h3>Titulo 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, molestias aliquam? Inventore sequi quam est non
+                  blanditiis iste voluptatem corrupti nisi distinctio repellat
+                  quo, dolorem eos dolore quaerat nihil doloremque.
+                </p>
+                <a href="" style="color: #8a2be2;">Saber más</a>
+              </div>
+              <div class="card">
+                <img src="Black & White.png" alt="imagen trabajo" />
+                <h3>Titulo 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, molestias aliquam? Inventore sequi quam est non
+                  blanditiis iste voluptatem corrupti nisi distinctio repellat
+                  quo, dolorem eos dolore quaerat nihil doloremque.
+                </p>
+                <a href="" style="color: #8a2be2;">Saber más</a>
+              </div>
+              <div class="card">
+                <img src="Black & White.png" alt="imagen trabajo" />
+                <h3>Titulo 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, molestias aliquam? Inventore sequi quam est non
+                  blanditiis iste voluptatem corrupti nisi distinctio repellat
+                  quo, dolorem eos dolore quaerat nihil doloremque.
+                </p>
+                <a href="" style="color: #8a2be2;">Saber más</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form-header"> <!--formulario-->
+          <h1 class="fuente-titulo">Contacto</h1>
+          <p><em>¡Espero tu consulta!</em></p>
+    
+          <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="pepe@gmail.com"
+                  required
+                />
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+            <div class="form-row">
+              <button type="submit" id="submit">Enviar</button>
+            </div>
+            <p class="alertas" id="alertas" style="color: red;"></p>
+          </form>
+        </section>
+      </main>
+      <footer id="contactos">
+        <div id="footer">
+          <a href="index.html" class="contact"
+            ><i class="fa-solid fa-splotch fixed" style="color: #8a2be2;"></i
+          ></a>
+          <h3 class="fuente-titulo">heruDesign</h3>
+          <nav>
+            <ul>
+              <li><a href="index-personal.html#home">Inicio</a></li>
+              <li><a href="index-personal.html#about">Acerca de mi</a></li>
+              <li><a href="index-personal.html#work">Proyectos</a></li>
+              <li><a href="index-personal.html#links">Enlaces</a></li>
+              <li><a href="index-personal.html#contact">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <!--Code injected by live server-->
+    <script></script>
+  </body>
+</html>
